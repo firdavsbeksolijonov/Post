@@ -1,0 +1,761 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background: white;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 150px;
+  border: 1px solid;
+}
+
+.header__post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__txt ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+button {
+  width: 160px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #00C97B;
+}
+
+.header__background {
+  margin-bottom: 200px;
+  background: linear-gradient(0.6deg, #5B52A3 1.08%, #40B8EA 100%);
+  height: 600px;
+  padding-top: 103px;
+}
+
+.доставка__right img {
+  width: 473px;
+  height: 471 px;
+}
+
+.доставка__left h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  color: white;
+}
+
+.доставка__left h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 42px;
+  color: white;
+  margin-top: -50px;
+}
+
+.доставка__button {
+  width: 200px;
+  height: 60px;
+}
+
+#contaner {
+  border: 1px solid;
+  height: 600px;
+  border-radius: 36px;
+}
+
+.sail__context img {
+  width: 100%;
+}
+
+.sail__context h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 50px;
+  color: #1F2428;
+  height: 100px;
+  width: 477px;
+}
+
+.Jacket .jacket__left h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #1F2428;
+  padding-left: 20px;
+}
+
+.Jacket {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Jacket .jacket__left {
+  width: 400px;
+}
+
+.jacket__left .flag1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #F2F6FC;
+  border-radius: 16px;
+}
+
+.jacket__right h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #1F2428;
+  padding-left: 20px;
+}
+
+.jacket__right {
+  width: 400px;
+}
+
+.jacket__right .flag2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #F2F6FC;
+  border-radius: 16px;
+}
+
+.jacket__center__img {
+  background: #F2F6FC;
+  border-radius: 50%;
+}
+
+.jacket__center__img img {
+  width: 446px;
+  height: 446px;
+}
+
+.flag1 .flag1__context h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1F2428;
+  margin-top: 42px;
+}
+
+.flag1 .flag1__context h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #1F2428;
+  margin-top: -20px;
+}
+
+.flag2 .flag2__text h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1F2428;
+  margin-top: 42px;
+}
+
+.flag2 .flag2__text h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #01CD7D;
+  margin-top: -20px;
+}
+
+.Shirts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 35px;
+}
+
+.Shirts .shirt__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Shirts .shirt__left .vector1 {
+  width: 60px;
+  height: 30px;
+}
+
+.Shirts .shirt__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Shirts .shirt__right .vector2 {
+  width: 60px;
+  height: 30px;
+}
+
+.Shirts .shirt__center h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #1F2428;
+}
+
+.Shirts .shirt__center h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+  color: #1F2428;
+  margin-top: -7px;
+}
+
+.shopping__background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  gap: 34px;
+}
+
+.shopping {
+  width: 100%;
+  background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+  margin-top: 69px;
+  margin-bottom: 100px;
+  height: 480px;
+}
+
+#shopping__container {
+  border: 1px solid black;
+  border-radius: 36px;
+}
+
+.okeypost__background {
+  margin-bottom: 200px;
+}
+
+.okeypost__context {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+
+.okeypost__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.okeypost__list__img {
+  width: 25px;
+  height: 25px;
+  margin-top: -7px;
+}
+
+.okeypost__background h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 56px;
+  color: #1F2428;
+  width: 824px;
+}
+
+.okeypost__background p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color: #1F2428;
+  width: 760px;
+}
+
+.choice__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice__item__txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.choice__item__txt2 {
+  display: flex;
+  gap: 8px;
+}
+
+.choice__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice__subtitle__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.choice__subtitle__left {
+  display: flex;
+  gap: 8px;
+}
+
+.choice__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choice__title__left {
+  display: flex;
+  gap: 8px;
+}
+
+.choice__title__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.choice__item__txt2 h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1F2428;
+}
+
+.choice__item__txt > div > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+}
+
+.choice__item__txt > div > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.choice__subtitle__left > h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1F2428;
+}
+
+.choice__subtitle__right > div > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+}
+
+.choice__subtitle__right > div > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.choice__title__left > h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1F2428;
+}
+
+.choice__title__right > div > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+}
+
+.choice__title__right > div > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.britain {
+  margin-bottom: 150px;
+}
+
+.britain__context {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.britain__background > h2 {
+  width: 695px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 56px;
+  color: #1F2428;
+}
+
+.britain__background h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1F2428;
+}
+
+.britain__background p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #1F2428;
+}
+
+.britain__background h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color: #1F2428;
+  width: 660px;
+}
+
+.britain__background > .britain__btn {
+  background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+  box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+  border-radius: 36px;
+}
+
+.virtual__background {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.virtual {
+  background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+  margin-bottom: 200px;
+  height: 402px;
+}
+
+#virtual__container {
+  border-radius: 36px;
+  border: 1px solid black;
+  padding-top: 30px;
+}
+
+.virtual__left__img > img {
+  width: 350px;
+  height: 350px;
+}
+
+.virtual__right__txt h1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.virtual__right__txt > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.virtual__right__txt > button {
+  background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+  box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+  border-radius: 36px;
+}
+
+.client__items__txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+  border-radius: 16px;
+}
+
+#client__container > h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 56px;
+  color: #1F2428;
+  width: 834px;
+}
+
+.client__p_class {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color: #1F2428;
+  width: 560px;
+}
+
+.client__items__txt h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1F2428;
+}
+
+.client__items__txt p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F2428;
+}
+
+.blog__txt {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px 20px;
+}
+
+.blog__txt > .blog__txt__items {
+  display: flex;
+  gap: 30px;
+}
+
+.blog__txt__items > div > .blog__footer_date {
+  display: flex;
+  gap: 30px;
+}
+
+.blog__container > h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 56px;
+  color: #1F2428;
+}
+
+.blog__txt > .blog__txt__items > div > h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1F2428;
+}
+
+.blog__txt > .blog__txt__items > div > h6 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F2428;
+}
+
+.blog__txt__items > div > .blog__footer_date > p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1F2428;
+}
+
+.blog__txt .blog__txt__items .blog__left__img > img {
+  height: 300px;
+}
+
+.sale {
+  margin-bottom: 150px;
+}
+
+.sale > #sale__container h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 56px;
+  color: #1F2428;
+}
+
+#sale__container .sail__txt p {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  color: #1F2428;
+}
+
+.subscribe {
+  background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+  height: 270px;
+}
+
+#subscribe__container {
+  border: 1px solid black;
+  border-radius: 36px;
+}
+
+.subscribe__background {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  padding-top: 10px;
+}
+
+.subscribe__left {
+  width: 475px;
+}
+
+.subscribe__center__txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid white;
+}
+
+.subscribe__left h3 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.subscribe__center__txt h5 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+#footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+.last__txt {
+  display: flex;
+  justify-content: center;
+}
+
+.last__txt h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #1F2428;
+}/*# sourceMappingURL=dynasty.css.map */
